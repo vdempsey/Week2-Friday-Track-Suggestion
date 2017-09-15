@@ -18,6 +18,24 @@ $(document).ready(function() {
 
     if ((question1Input1).checked && (question2Input1).checked && (question3Input1).checked && (question4Input1).checked && (question5Input1).checked) {
       $('#css-design').show();
+      $('#ruby').hide();
+      $('#c-net').hide();
+      $('#unicorn').hide();
+    } else if ((question1Input2).checked && (question2Input2).checked && (question3Input2).checked && (question4Input2).checked && (question5Input2).checked) {
+      $('#ruby').show();
+      $('#css-design').hide();
+      $('#c-net').hide();
+      $('#unicorn').hide();
+    } else if ((question1Input3).checked && (question2Input3).checked && (question3Input3).checked && (question4Input3).checked && (question5Input3).checked) {
+      $('#c-net').show();
+      $('#ruby').hide();
+      $('#css-design').hide();
+      $('#unicorn').hide();
+    } else {
+      $('#unicorn').show();
+      $('#css-design').hide();
+      $('#ruby').hide();
+      $('#c-net').hide();
     }
 
     event.preventDefault();
