@@ -8,6 +8,9 @@
 
 _The goal of this page is to potentially help an aspiring newbie developer to decide on his/her first step toward a learning path at Epicodus based on the input. Currently most  questions and answers have FPO copy, so please see **Form Logic** section of README for all the details._
 
+Here is a link to gh-pages for the project:
+https://vdempsey.github.io/Week2-Friday-Track-Suggestion/
+
 ## Setup/Installation Requirements
 
 * _Clone this project to your local machine using this url: https://github.com/vdempsey/Week2-Friday-Track-Suggestion_
