@@ -27,20 +27,36 @@ $(document).ready(function() {
       $('#css-design').hide();
       $('#c-net').hide();
       $('#unicorn').hide();
+      $('#form').hide();
     } else if ((question1Input3).checked && (question2Input3).checked && (question3Input3).checked && (question4Input3).checked && (question5Input3).checked) {
       $('#c-net').show();
       $('#ruby').hide();
       $('#css-design').hide();
       $('#unicorn').hide();
+      $('#form').hide();
     } else {
       $('#unicorn').show();
       $('#css-design').hide();
       $('#ruby').hide();
       $('#c-net').hide();
+      $('#form').hide();
     }
 
     event.preventDefault();
 
   });
+
+  $(document).ready(function() {
+    $(".clickable").click(function() {
+    $("#form").show();
+    $("#css-design").hide();
+    $('#ruby').hide();
+    $('#c-net').hide();
+    $('#unicorn').hide();
+
+   event.preventDefault();
+
+  });
+});
 
 });

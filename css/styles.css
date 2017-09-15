@@ -46,4 +46,16 @@ img.logo {
   margin-bottom: 30px;
 }
 
+.clickable {
+  color:#2a94bf;
+  font-weight: bold;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #02a0e0;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
