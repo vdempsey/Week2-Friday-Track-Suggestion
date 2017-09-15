@@ -21,6 +21,7 @@ $(document).ready(function() {
       $('#ruby').hide();
       $('#c-net').hide();
       $('#unicorn').hide();
+      $('#form').hide();
     } else if ((question1Input2).checked && (question2Input2).checked && (question3Input2).checked && (question4Input2).checked && (question5Input2).checked) {
       $('#ruby').show();
       $('#css-design').hide();

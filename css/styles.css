@@ -35,5 +35,15 @@ img.logo {
   padding-right: 100px;
   font-size: 18px;
   font-weight: bold;
+}
+
+#form {
+  margin: auto;
+  width: 500px;
+  background-color: #f2f2f2;
+  padding-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 }
