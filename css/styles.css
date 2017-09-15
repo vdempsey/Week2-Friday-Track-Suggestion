@@ -1,3 +1,15 @@
+body {
+  background-color: #cdcfd3;
+}
+
+.container {
+  background-color: #fff;
+}
+
 img#banner-img {
   max-width: 100%;
+}
+
+#ruby, #c-net, #css-design {
+  display: none;
 }
